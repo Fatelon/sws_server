@@ -1,0 +1,23 @@
+{
+  "name": "sentinel",
+  "version": "1.0.0",
+  "description": "secured sentinel",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "tsc-w": "tsc --watch",
+    "built:watch-nodemon": "nodemon ./dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.4"
+  }
+}
